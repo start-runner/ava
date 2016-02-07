@@ -2,6 +2,7 @@
 [![travis](http://img.shields.io/travis/start-runner/ava.svg?style=flat-square)](https://travis-ci.org/start-runner/ava)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/ava.svg?style=flat-square)](https://codecov.io/github/start-runner/ava)
 [![deps](https://img.shields.io/gemnasium/start-runner/ava.svg?style=flat-square)](https://gemnasium.com/start-runner/ava)
+[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 [AVA](https://github.com/sindresorhus/ava) task for [Start](https://github.com/start-runner/start).
 
@@ -16,7 +17,6 @@ npm i -D start-ava
 Task is rely on array of files.
 
 ```js
-// tasks.js
 import Start from 'start';
 import logger from 'start-simple-logger';
 import files from 'start-files';
@@ -40,6 +40,8 @@ export function tdd() {
     );
 }
 ```
+
+See [documentation](https://github.com/start-runner/start#readme) for details.
 
 ## Arguments
 
