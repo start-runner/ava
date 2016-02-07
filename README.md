@@ -14,8 +14,6 @@ npm i -D start-ava
 
 ## Usage
 
-Task is rely on array of files.
-
 ```js
 import Start from 'start';
 import logger from 'start-simple-logger';
