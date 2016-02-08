@@ -41,6 +41,8 @@ export function tdd() {
 
 See [documentation](https://github.com/start-runner/start#readme) for details.
 
+Note that this will not work with [start-coverage](https://github.com/start-runner/start).
+
 ## Arguments
 
 `ava(avaReporter, tapReporter)`
