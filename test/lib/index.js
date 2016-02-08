@@ -2,11 +2,28 @@ import test from 'tape';
 
 import task from '../../lib/';
 
-test('export', t => {
+test('basic', t => {
     t.equal(
         typeof task,
         'function',
-        'must be a function'
+        '1st function'
+    );
+
+    t.equal(
+        typeof task(),
+        'function',
+        '2nd function'
+    );
+
+    t.equal(
+        typeof task()(),
+        'function',
+        '3rd function'
+    );
+
+    t.true(
+        task()()() instanceof Promise,
+        'Promise'
     );
 
     t.end();
