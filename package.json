@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "start": "3.2.x",
-    "start-start-preset": "0.1.x",
+    "start-start-preset": "0.2.x",
 
     "babel-cli": "6.5.x",
     "babel-core": "6.5.x",
