@@ -39,9 +39,9 @@ export function tdd() {
 }
 ```
 
-See [documentation](https://github.com/start-runner/start#readme) for details.
+Task is rely on array of files, see [documentation](https://github.com/start-runner/start#readme) for details.
 
-Note that this will not work with [start-coverage](https://github.com/start-runner/start).
+Note that this task will not work with [start-coverage](https://github.com/start-runner/start).
 
 ## Arguments
 
