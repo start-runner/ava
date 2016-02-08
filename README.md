@@ -18,13 +18,13 @@ npm i -D start-ava
 
 ```js
 import Start from 'start';
-import logger from 'start-simple-logger';
+import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import watch from 'start-watch';
 import ava from 'start-ava';
 import tapSpec from 'tap-spec';
 
-const start = Start(logger());
+const start = Start(reporter());
 
 export function test() {
     return start(
