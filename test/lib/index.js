@@ -21,10 +21,5 @@ test('basic', t => {
         '3rd function'
     );
 
-    t.true(
-        task()()() instanceof Promise,
-        'Promise'
-    );
-
     t.end();
 });
