@@ -16,11 +16,9 @@
     "babel-runtime": "6.x.x"
   },
   "devDependencies": {
-    "start": "3.2.x",
-    "start-start-preset": "0.2.x",
+    "start-babel-cli": "0.1.x",
+    "start-start-preset": "1.0.x",
 
-    "babel-cli": "6.5.x",
-    "babel-core": "6.5.x",
     "babel-preset-es2015": "6.5.x",
     "babel-plugin-transform-runtime": "6.5.x",
     "babel-plugin-add-module-exports": "0.1.x",
@@ -33,19 +31,9 @@
     "husky": "0.10.x"
   },
   "scripts": {
-    "task": "babel-node node_modules/.bin/start start-start-preset",
-
-    "build": "npm run task build",
-    "dev": "npm run task dev",
-
-    "lint": "npm run task lint",
-    "test": "npm run task test",
-    "tdd": "npm run task tdd",
-    "cover": "npm run task cover",
-    "travis": "npm run task travis",
-
-    "prepush": "npm run task prepush",
-    "prepublish": "npm run build"
+    "start": "start start-start-preset",
+    "prepush": "npm start prepush",
+    "prepublish": "npm start build"
   },
   "engines": {
     "node": ">=0.12.0",
