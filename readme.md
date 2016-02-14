@@ -43,7 +43,7 @@ export function tdd() {
 
 This task relies on array of files and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
 
-This task will not work with [start-coverage](https://github.com/start-runner/coverage).
+Note that AVA will not work with [start-coverage](https://github.com/start-runner/coverage).
 
 ## Arguments
 
