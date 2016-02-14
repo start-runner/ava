@@ -1,7 +1,8 @@
 # start-ava
 
 [![npm](https://img.shields.io/npm/v/start-ava.svg?style=flat-square)](https://www.npmjs.com/package/start-ava)
-[![travis](http://img.shields.io/travis/start-runner/ava.svg?style=flat-square)](https://travis-ci.org/start-runner/ava)
+[![linux build](https://img.shields.io/travis/start-runner/ava.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/ava)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/ava.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/ava)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/ava.svg?style=flat-square)](https://codecov.io/github/start-runner/ava)
 [![deps](https://img.shields.io/gemnasium/start-runner/ava.svg?style=flat-square)](https://gemnasium.com/start-runner/ava)
 [![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
