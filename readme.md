@@ -26,24 +26,20 @@ import tapSpec from 'tap-spec';
 
 const start = Start(reporter());
 
-export function test() {
-    return start(
-        files('test/**/*.js'),
-        ava('tap', tapSpec)
-    )
-}
+export const test = () => start(
+    files('test/**/*.js'),
+    ava('tap', tapSpec)
+);
 
-export function tdd() {
-    return start(
-        files([ 'lib/**/*.js', 'test/**/*.js' ]),
-        watch(test)
-    );
-}
+export const tdd = () => start(
+    files([ 'lib/**/*.js', 'test/**/*.js' ]),
+    watch(test)
+);
 ```
 
 This task relies on array of files and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
 
-:point_right: Note that this task will not work with [start-istanbul](https://github.com/start-runner/istanbul).
+:point_right: Note that this task will not work together with [start-istanbul](https://github.com/start-runner/istanbul).
 
 ## Arguments
 
