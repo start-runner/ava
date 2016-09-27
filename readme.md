@@ -1,9 +1,9 @@
 # start-ava
 
 [![npm](https://img.shields.io/npm/v/start-ava.svg?style=flat-square)](https://www.npmjs.com/package/start-ava)
-[![linux build](https://img.shields.io/travis/start-runner/ava.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/ava)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/ava.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/ava)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/ava.svg?style=flat-square)](https://codecov.io/github/start-runner/ava)
+[![linux build](https://img.shields.io/travis/start-runner/ava/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/ava)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/ava/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/ava)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/ava/master.svg?style=flat-square)](https://codecov.io/github/start-runner/ava)
 [![deps](https://img.shields.io/gemnasium/start-runner/ava.svg?style=flat-square)](https://gemnasium.com/start-runner/ava)
 
 [AVA](https://github.com/avajs/ava) task for [Start](https://github.com/start-runner/start).
