@@ -10,8 +10,10 @@
 
 ## Install
 
-```
-npm i -D start-ava
+```sh
+npm install --save-dev start-ava
+# or
+yarn add --dev start-ava
 ```
 
 ## Usage
@@ -27,13 +29,13 @@ import tapSpec from 'tap-spec';
 const start = Start(reporter());
 
 export const test = () => start(
-    files('test/**/*.js'),
-    ava('tap', tapSpec)
+  files('test/**/*.js'),
+  ava('tap', tapSpec)
 );
 
 export const tdd = () => start(
-    files([ 'lib/**/*.js', 'test/**/*.js' ]),
-    watch(test)
+  files([ 'lib/**/*.js', 'test/**/*.js' ]),
+  watch(test)
 );
 ```
 
