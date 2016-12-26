@@ -18,14 +18,12 @@
     "ava": "^0.16.0"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
     "babel-preset-start": "^0.1.0",
-    "eslint-config-rebem": "^1.1.0",
-    "eslint-plugin-babel": "^3.3.0",
+    "eslint-config-tough": "^0.3.3",
     "husky": "^0.11.6",
     "sinon": "^1.17.5",
     "start-babel-cli": "^3.0.0",
-    "start-start-preset": "^2.0.0",
+    "start-start-preset": "^3.0.0",
     "tape": "^4.6.0"
   },
   "scripts": {

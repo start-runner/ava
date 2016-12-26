@@ -1,9 +1,13 @@
 {
   "extends": [
-    "rebem/configs/common",
-    "rebem/configs/babel"
+    "tough/config/common",
+    "tough/config/node",
+    "tough/config/esnext"
   ],
   "rules": {
-    "no-console": 0
+    "no-console": 0,
+    "immutable/no-mutation": 0,
+    "no-magic-numbers": 0,
+    "promise/always-return": 0
   }
 }
