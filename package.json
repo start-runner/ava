@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "babel-preset-start": "^0.1.0",
-    "eslint-config-tough": "^0.3.3",
+    "eslint-config-tough": "^0.4.0",
     "husky": "^0.12.0",
     "sinon": "^1.17.5",
     "start-babel-cli": "^4.0.1",
